@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8120784658749086163}
+  - component: {fileID: 8120784660571820549}
   m_Layer: 0
   m_Name: Strawberry
   m_TagString: Untagged
@@ -31,6 +32,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 89.98, y: 0, z: 180}
+--- !u!114 &8120784660571820549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8120784658749086156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 936f01af5b4daa947b95d7781fd49ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_strawberry: {fileID: 8120784658749086163}
 --- !u!1001 &8120784659528462085
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -98,6 +112,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 94da91e4e3813ab42b204fbe77bf00e3,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 94da91e4e3813ab42b204fbe77bf00e3,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 94da91e4e3813ab42b204fbe77bf00e3,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 94da91e4e3813ab42b204fbe77bf00e3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 41159cab8ed8c434e92b25cf14f9f2a8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94da91e4e3813ab42b204fbe77bf00e3, type: 3}
 --- !u!4 &3875459980672566303 stripped
